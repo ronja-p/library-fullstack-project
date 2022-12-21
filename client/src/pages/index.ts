@@ -1,0 +1,10 @@
+export { Home } from './Home';
+export { Book } from './Book';
+export { UserDashboard } from './user/dashboard/UserDashboard';
+export { AdminDashboard } from './admin/AdminDashboard';
+export { Login } from './user/Login';
+export { Register } from './user/Register';
+export { Activate } from './user/Activate';
+export { Recovery } from './user/Recovery';
+export { ResetPassword } from './user/ResetPassword';
+export { Error } from './Error';

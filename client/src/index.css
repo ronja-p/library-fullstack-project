@@ -1,0 +1,164 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  overflow-y: overlay;
+}
+
+body {
+  min-height: 90vh;
+  position: relative;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: black;
+}
+
+.nav__icon {
+  color: white;
+}
+
+.nav__heading {
+  flex-grow: 1;
+}
+
+.nav__link {
+  color: white;
+}
+
+.loading {
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+  width: 5rem;
+}
+
+.card {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.dashboard__content {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.dashboard__form {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.dashboard__badge-text {
+  float: right;
+  margin-right: 2rem;
+  margin-top: -2rem;
+}
+
+.dashboard__badge-icon {
+  color: black;
+  margin-top: -0.6rem;
+  margin-right: 0.6rem;
+}
+
+.card__sidebar {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.book-list {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.sidebar {
+  max-width: 900px;
+  margin: auto;
+}
+
+.sidebar__avatar {
+  margin: auto;
+}
+
+.sidebar__name {
+  text-align: center;
+}
+
+.sidebar .active {
+  background-color: #ba2d65;
+}
+
+.paragraph--small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.paragraph--large {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.back-button {
+  float: left;
+}
+
+.form__error {
+  min-height: 1.8em;
+  color: #d32f2f;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+  text-align: left;
+  margin-top: -10px;
+  margin-right: 14px;
+  margin-bottom: -2px;
+  margin-left: 14px;
+}
