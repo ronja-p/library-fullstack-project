@@ -2,6 +2,8 @@
 
 This library management project was made as part of Integrify's Full Stack Traineeship
 
+[Video walkthrough](https://www.youtube.com/watch?v=aZK_d9Kkwo4)
+
 ## Overview
 
 The frontend was made in React and utilised many Material-UI components.
